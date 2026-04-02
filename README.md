@@ -33,7 +33,9 @@ This project offloads heavy deep-learning computation to a laptop/PC while keepi
 **Step 3:** Install the required dependencies:
 ```bash
 pip install opencv-python numpy requests
+ ```
 
 **Step 4:** Run the controller script:
 ```bash
 python3 robot_simulation.py
+```
