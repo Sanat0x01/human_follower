@@ -2,9 +2,6 @@
 
 An autonomous robotics project that uses a distributed Wi-Fi architecture to detect and track human targets in real-time. The system uses an ESP32-CAM for video streaming, processes the feed on a central computer using a MobileNet-SSD deep learning model, and issues HTTP movement commands to a NodeMCU-based robot chassis.
 
-![Robot View](Robot%20View_screenshot_15.11.2025.png)
-*Screenshot of the real-time ESP32-CAM feed with MobileNet-SSD human detection.*
-
 ## 🚀 System Architecture
 This project offloads heavy deep-learning computation to a laptop/PC while keeping the robot lightweight and wireless:
 * **The Eyes (ESP32-CAM):** Streams video over a local Wi-Fi network to the Python script.
